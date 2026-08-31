@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hassan | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio website for Hassan, Computer Science student at University of Central Punjab."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container nav">
+        <div class="brand">Hassan</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <p class="eyebrow">Computer Science Student</p>
+            <h1>Hello, I'm <span>Hassan</span></h1>
+            <p class="subtext">
+              I am currently pursuing my degree in Computer Science at the University of
+              Central Punjab. I have completed 4 semesters with a CGPA of 3.33 and have
+              worked on multiple projects focused on software development, problem solving,
+              and game design.
+            </p>
+            <div class="cta-row">
+              <a class="btn primary" href="#projects">View Projects</a>
+              <a class="btn secondary" href="#contact">Contact Me</a>
+            </div>
+            <ul class="stats">
+              <li><strong>4</strong><span>Semesters</span></li>
+              <li><strong>3.33</strong><span>CGPA</span></li>
+              <li><strong>10+</strong><span>Projects</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="profile-card">
+              <img src="WhatsApp Image 2026-08-31 at 10.25.31 PM.jpeg" alt="Hassan portrait" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About Me</p>
+            <h2>Creative and motivated developer</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-card">
+              <h3>My Story</h3>
+              <p>
+                I am a Computer Science student with a strong interest in building digital
+                experiences that are engaging, useful, and user-friendly. Through my academic
+                journey and project work, I have developed a deeper understanding of coding,
+                software architecture, and interactive design.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3>Skills</h3>
+              <div class="chip-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>C++</span>
+                <span>Game Development</span>
+                <span>UI/UX</span>
+                <span>Problem Solving</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Education</p>
+            <h2>Academic background</h2>
+          </div>
+          <div class="edu-card">
+            <div class="edu-badge">BSCS</div>
+            <div>
+              <h3>University of Central Punjab</h3>
+              <p>Computer Science</p>
+              <p>CGPA: 3.33</p>
+              <p>Completed: 4 semesters</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Featured work</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card feature">
+              <div class="project-visual game-scene">
+                <div class="bird"></div>
+                <div class="pipe pipe-one"></div>
+                <div class="pipe pipe-two"></div>
+                <div class="ground"></div>
+              </div>
+              <div class="project-body">
+                <span class="tag">Game Development</span>
+                <h3>Flappy Bird Game</h3>
+                <p>
+                  A fast-paced arcade game inspired by the classic Flappy Bird concept. The
+                  project involved implementing physics-based controls, collision detection,
+                  randomized obstacle generation, score tracking, and responsive gameplay
+                  mechanics.
+                </p>
+                <ul>
+                  <li>JavaScript game loop</li>
+                  <li>Keyboard controls and collision logic</li>
+                  <li>Score system and level difficulty</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-body mini">
+                <span class="tag">Web Application</span>
+                <h3>Student Portal</h3>
+                <p>
+                  A user-friendly platform for managing student information, notices, and
+                  academic records.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-body mini">
+                <span class="tag">Frontend</span>
+                <h3>Portfolio Website</h3>
+                <p>
+                  A responsive personal website designed to showcase skills, education, and
+                  projects in a modern style.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <h3>Hassan</h3>
+          <p>Computer Science Student at University of Central Punjab</p>
+        </div>
+        <a href="mailto:hassan@example.com">hassan@example.com</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
